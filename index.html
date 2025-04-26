@@ -1,99 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivam Kumar Jha | Personal Website</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script> <!-- Linking JS for typing effect -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shivam Jha | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <header class="hero">
-        <div class="container">
-            <h1>Shivam Kumar Jha</h1>
-            <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-            <a href="https://www.linkedin.com/in/shivam-jha-99b938189/" target="_blank" class="btn">LinkedIn Profile</a>
-        </div>
-    </header>
 
-    <section class="section fade-in">
-        <div class="container">
-            <h2>Research Interests</h2>
-            <p>Fluid Dynamics, Machine Learning for Fluid Mechanics, High Performance Computing, Numerical Modeling, Scientific Computing, Scalable Data Analysis.</p>
-        </div>
-    </section>
+<!-- Vanta Background Container -->
+<div id="vanta-bg"></div>
 
-    <section class="section fade-in">
-        <div class="container">
-            <h2>Education</h2>
-            <p><strong>Indian Institute of Technology (ISM) Dhanbad</strong><br>BTech in Mechanical Engineering, May 2023<br>GPA: 8.77/10</p>
-        </div>
-    </section>
+<header class="hero">
+  <div class="container">
+    <img src="https://i.ibb.co/6P5KZf4/avatar.png" alt="Profile" class="profile-photo">
+    <h1>Shivam Kumar Jha</h1>
+    <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+    <a href="https://www.linkedin.com/in/shivam-jha-99b938189/" target="_blank" class="btn">Connect on LinkedIn</a>
+  </div>
+</header>
 
-    <section class="section fade-in">
-        <div class="container">
-            <h2>Experience</h2>
-            <h3>Industrial Experience</h3>
-            <p><strong>Senior Engineer, Gail (India) Ltd.</strong> (July 2023 – Present)</p>
-            <ul>
-                <li>Risk-based inspection planning using VBA as per API580/API581 standards.</li>
-                <li>Automation of inspection reports using MS Access, Excel, and VBA.</li>
-                <li>Inspection and NDT techniques as per ASME and OISD standards.</li>
-            </ul>
+<section class="section fade-in about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Engineer • Researcher • Problem Solver.<br> Passionate about computational physics, fluid mechanics and data-driven science.</p>
+  </div>
+</section>
 
-            <p><strong>Mechanical Engineering Intern, Sotaog</strong> (May 2022 – July 2022)</p>
-            <ul>
-                <li>ESP optimization, flash gas estimation, pressure loss calculations.</li>
-            </ul>
+<section class="section fade-in skills">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/000000/python--v1.png" alt="Python"/>
+        <p>Python</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/000000/c-plus-plus-logo.png" alt="C++"/>
+        <p>C++</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/000000/fortran.png" alt="Fortran"/>
+        <p>Fortran</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/000000/matlab.png" alt="Matlab"/>
+        <p>Matlab</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-            <h3>Research Experience</h3>
-            <p><strong>University of Washington (Remote)</strong> - Ocean Front Instability Study.</p>
-            <p><strong>California Institute of Technology (Remote)</strong> - Floe Collision Modeling & Integration with Oceananigans.</p>
-            <p><strong>IIT(ISM) Dhanbad</strong> - Wave Equation Study, Numerical Scheme Development, Stability Analysis.</p>
-        </div>
-    </section>
+<section class="section fade-in projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://img.icons8.com/doodle/96/000000/ocean.png" alt="Ocean Simulation"/>
+        <p>Oceananigans<br> Simulation</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/external-flat-juicy-fish/96/000000/external-pipe-oil-industry-flat-flat-juicy-fish.png" alt="Pipe Flow"/>
+        <p>Pressure Loss<br> Estimation</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/000000/turbine.png" alt="CFD"/>
+        <p>CFD Analysis<br> (FVM/FDM)</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/000000/3d-printer.png" alt="Machine Design"/>
+        <p>Portable Wire-EDM<br> Machine</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="section fade-in">
-        <div class="container">
-            <h2>Projects</h2>
-            <ul>
-                <li>Effect of Bulk Viscosity on Acoustic Wave Equation.</li>
-                <li>Simulation of Rayleigh-Taylor Instability.</li>
-                <li>Numerical Simulation of Conduction and Convection using FVM.</li>
-                <li>Development of Portable Wire-EDM Machine.</li>
-                <li>12 Steps to Navier-Stokes Solver Implementation.</li>
-            </ul>
-        </div>
-    </section>
+<footer class="footer fade-in">
+  <div class="container">
+    <p>Email: <a href="mailto:shivamkjha23@gmail.com">shivamkjha23@gmail.com</a></p>
+    <p>© 2025 Shivam Kumar Jha</p>
+  </div>
+</footer>
 
-    <section class="section fade-in">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Programming: Fortran, C++, Julia, Matlab, Python, C, MPI</li>
-                <li>Tools: Oceananigans, Techplot, ANSYS, AutoCAD</li>
-                <li>Documentation: LaTeX, Microsoft Word</li>
-                <li>Scientific Computing: Global Spectral Analysis, Fourier Analysis, FVM, FDM, Compact Schemes, HPC</li>
-            </ul>
-        </div>
-    </section>
+<!-- Vanta.js libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
 
-    <section class="section fade-in">
-        <div class="container">
-            <h2>References</h2>
-            <ul>
-                <li>Dr. Tapan Sengupta - IIT(ISM) Dhanbad</li>
-                <li>Dr. Mukund Gupta - TU Delft</li>
-                <li>Dr. Georgy Manucharyan - University of Washington</li>
-            </ul>
-        </div>
-    </section>
-
-    <footer class="footer fade-in">
-        <div class="container">
-            <p>Contact: shivamkjha23@gmail.com | (+91) 7091844642</p>
-            <p>© 2025 Shivam Kumar Jha. All rights reserved.</p>
-        </div>
-    </footer>
 </body>
 </html>
